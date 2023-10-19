@@ -8,5 +8,9 @@
 </head>
 <body> 
 <header>
-    this is my header 
+<navbar>
+    <div class="nav-img">
+        <img src="https://churchbuzz.in/wp-content/uploads/2023/06/Image-5.png">
+        </div>
+
 </header>
