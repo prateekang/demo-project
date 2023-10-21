@@ -15,6 +15,21 @@ wp_enqueue_style('bootstrap',"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/
         'flex-height' => true,
         'flex-width' => true
     ]);
- }
+    add_theme_support('custom-background',[
+        'default-color' =>'#fff',
+        'default-repeat' => 'no-repeat',
+    ]);
+    add_theme_support('post-thumbnails');
+    add_theme_support('align-wide');
+    add_theme_support('automatic-feed-link');
+    add_theme_support('html5',[
+        'comment-form',
+        'comment-list',
+        'search-form',
+        'gallery',
+        'caption',
+    ]);
+    
+}
  add_action('after_setup_theme','setup_support');
  ?>
