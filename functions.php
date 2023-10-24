@@ -29,7 +29,9 @@ wp_enqueue_style('bootstrap',"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/
         'gallery',
         'caption',
     ]);
+    register_nav_menus(array('primary-menu'=>'top-menu'));
     
 }
  add_action('after_setup_theme','setup_support');
  ?>
+ 

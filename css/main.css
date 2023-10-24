@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header
+{
+    background-color: aquamarine;
+}
+.prateek{
+    display: flex;
+}
+li{
+    margin:25px 25px ;
+    list-style: none;
+}
